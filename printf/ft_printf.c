@@ -75,6 +75,7 @@ int	ft_printf(char *str, ...)
 			i++;
 		}
 	}
+	va_end(args);
 	return (count);
 }
 
